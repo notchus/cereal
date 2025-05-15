@@ -1,0 +1,140 @@
+# ================================
+# Global Ignorierungen
+# ================================
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+*.swp
+*.swo
+
+# ================================
+# Git Ignorieren von Betriebssystem-Metadaten
+# ================================
+ehthumbs.db
+Icon?
+Desktop.ini
+
+# ================================
+# Java / Jakarta EE Backend
+# ================================
+**/target/
+**/out/
+**/.classpath
+**/.project
+**/.settings/
+**/*.iml
+**/.idea/
+
+# Maven Wrapper
+**/.mvn/
+**/mvnw
+**/mvnw.cmd
+
+# Build Tools
+**/build/
+**/.gradle/
+**/gradle/
+
+# Secrets (optional, falls verwendet)
+**/secrets.properties
+**/application.properties
+**/application.yml
+**/.env
+
+# ================================
+# Angular Frontend
+# ================================
+**/node_modules/
+**/dist/
+**/tmp/
+**/.angular/
+**/.env
+
+# IDEs
+**/.vscode/
+**/.idea/
+
+# ================================
+# Monorepo-spezifisch (optional)
+# ================================
+# Lerna, Nx oder ähnliche Tools
+**/nx-cache/
+**/.nx/
+**/.turbo/
+**/.pnpm-store/
+
+# Lockfiles (je nach Paketmanager anpassen)
+**/package-lock.json
+**/yarn.lock
+**/pnpm-lock.yaml
+# ================================
+# Global Ignorierungen
+# ================================
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+*.swp
+*.swo
+
+# ================================
+# Git Ignorieren von Betriebssystem-Metadaten
+# ================================
+ehthumbs.db
+Icon?
+Desktop.ini
+
+# ================================
+# Java / Jakarta EE Backend
+# ================================
+**/target/
+**/out/
+**/.classpath
+**/.project
+**/.settings/
+**/*.iml
+**/.idea/
+
+# Maven Wrapper
+**/.mvn/
+**/mvnw
+**/mvnw.cmd
+
+# Build Tools
+**/build/
+**/.gradle/
+**/gradle/
+
+# Secrets (optional, falls verwendet)
+**/secrets.properties
+**/application.properties
+**/application.yml
+**/.env
+
+# ================================
+# Angular Frontend
+# ================================
+**/node_modules/
+**/dist/
+**/tmp/
+**/.angular/
+**/.env
+
+# IDEs
+**/.vscode/
+**/.idea/
+
+# ================================
+# Monorepo-spezifisch (optional)
+# ================================
+# Lerna, Nx oder ähnliche Tools
+**/nx-cache/
+**/.nx/
+**/.turbo/
+**/.pnpm-store/
+
+# Lockfiles (je nach Paketmanager anpassen)
+**/package-lock.json
+**/yarn.lock
+**/pnpm-lock.yaml
