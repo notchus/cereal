@@ -138,3 +138,26 @@ Desktop.ini
 **/package-lock.json
 **/yarn.lock
 **/pnpm-lock.yaml
+
+# ================================
+# PostgreSQL / Database Folder
+# ================================
+# DB data & volumes
+database/data/
+database/volumes/
+database/postgres-data/
+
+# Logs and dumps
+database/*.log
+database/*.dump
+
+# Editor temp files
+database/*.swp
+database/*.swo
+database/*.tmp
+
+# Ignore .env or secret config in DB folder
+database/.env
+
+# Ignore macOS trash in DB folder
+database/.DS_Store
