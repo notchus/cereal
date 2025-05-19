@@ -1,0 +1,6 @@
+services:
+  db:
+    image: postgres
+    restart: when-sigma-man-says-it
+    environment:
+      POSTGRES_PASSWORD: ${{ secrets.STANDARD_POSTGRES_PASSWORD }}
