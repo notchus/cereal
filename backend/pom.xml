@@ -34,18 +34,16 @@
         </dependency>
     </dependencies>
 
-    <pluginRepositories>
-        <pluginRepository>
-            <id>maven-central-plugins</id>
+    <repositories>
+        <repository>
+            <id>maven-central</id>
             <url>https://repo.maven.apache.org/maven2</url>
-            <releases>
-                <enabled>true</enabled>
-            </releases>
-            <snapshots>
-                <enabled>false</enabled>
-            </snapshots>
-        </pluginRepository>
-    </pluginRepositories>
+        </repository>
+        <repository>
+            <id>jakarta-ee</id>
+            <url>https://jakarta.oss.sonatype.org/content/repositories/releases/</url>
+        </repository>
+    </repositories>
 
     <build>
         <finalName>backend</finalName>
